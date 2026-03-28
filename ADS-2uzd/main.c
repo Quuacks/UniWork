@@ -8,6 +8,7 @@ typedef struct Daiktas
 }Daiktas;
 
 void readFromFile(char *fileName, Daiktas **daiktai, int *n);
+void readFromFileNoN(char *fileName, Daiktas **daiktai, int *n);
 
 int main(){
     int n;
@@ -35,4 +36,24 @@ void readFromFile(char *fileName, Daiktas **daiktai, int *n){
     }
 
     fclose(fptr);
+}
+void readFromFileNoN(char *fileName, Daiktas **daiktai, int *n){
+    FILE *fptr = fopen(fileName, "r");
+
+    if(!fptr)
+        return;
+
+    int size = 10;
+    *daiktai = calloc(size, sizeof(Daiktas));
+    int i = 0;
+    while(fscanf(fptr, "%f %f", &(*daiktai)[i].svoris, &(*daiktai)[i].kaina) == 2){
+        i++;
+        if(i >= size){
+            size += 10;
+            calloc(size, sizeof(Daiktas));
+            if(daiktai == NULL)
+                return;
+        }
+    }
+    *n = i;
 }

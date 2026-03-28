@@ -9,6 +9,7 @@ typedef struct Daiktas
 
 void readFromFile(char *fileName, Daiktas **daiktai, int *n);
 void readFromFileNoN(char *fileName, Daiktas **daiktai, int *n);
+void sortByPrice(Daiktas *daiktai, int n);
 
 int main(){
     int n;
@@ -16,6 +17,7 @@ int main(){
     char *fileName = "test.txt";
 
     readFromFile(fileName, &daiktai, &n);
+    sortByPrice(daiktai, n);
 
     printf("n = %d\n", n);
 
@@ -56,4 +58,15 @@ void readFromFileNoN(char *fileName, Daiktas **daiktai, int *n){
         }
     }
     *n = i;
+}
+void sortByPrice(Daiktas *daiktai, int n){
+    for(int i = 0; i < n; ++i){
+        for(int j = i; j < n; ++j){
+            if(daiktai[i].kaina < daiktai[j].kaina){
+                Daiktas tmp = daiktai[i];
+                daiktai[i] = daiktai[j];
+                daiktai[j] = tmp;
+            }
+        }
+    }
 }

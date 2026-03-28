@@ -67,6 +67,13 @@ void sortByPrice(Daiktas *daiktai, int n){
                 daiktai[i] = daiktai[j];
                 daiktai[j] = tmp;
             }
+            else if(daiktai[i].kaina == daiktai[j].kaina){
+                if(daiktai[i].svoris > daiktai[j].svoris){
+                    Daiktas tmp = daiktai[i];
+                    daiktai[i] = daiktai[j];
+                    daiktai[j] = tmp;
+                }
+            }
         }
     }
 }

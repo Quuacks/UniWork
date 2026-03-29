@@ -23,7 +23,9 @@ int main(){
 
     int maxKaina = findBestForS(daiktai, n, S);
 
-    printf("Max kaina: %d", maxKaina);
+    printf("Max kaina: %d\n", maxKaina);
+    printf("Press enter to exit");
+    getchar(); getchar();
 
     free(daiktai);
 }

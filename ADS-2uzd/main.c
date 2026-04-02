@@ -25,7 +25,8 @@ int main(){
 
     printf("Max kaina: %d\n", maxKaina);
     printf("Press enter to exit");
-    getchar(); getchar();
+    while (getchar() != '\n');
+        getchar();
 
     free(daiktai);
 }
@@ -33,7 +34,7 @@ void readFromFile(char *fileName, Daiktas **daiktai, int *n, int *S){
     FILE *fptr = fopen(fileName, "r");
 
     if(!fptr)
-        return;
+        exit(1);
 
     fscanf(fptr, "%d %d", n, S);
     *daiktai = calloc(*n, sizeof(Daiktas));
@@ -42,27 +43,6 @@ void readFromFile(char *fileName, Daiktas **daiktai, int *n, int *S){
     }
 
     fclose(fptr);
-}
-void readFromFileNoN(char *fileName, Daiktas **daiktai, int *n, int *S){
-    FILE *fptr = fopen(fileName, "r");
-
-    if(!fptr)
-        return;
-
-    fscanf(fptr, "%d", S);
-
-    int size = 10;
-    *daiktai = calloc(size, sizeof(Daiktas));
-    int i = 0;
-    while(fscanf(fptr, "%d %d", &(*daiktai)[i].svoris, &(*daiktai)[i].kaina) == 2){
-        i++;
-        if(i >= size){
-            size += 10;
-            (*daiktai) = realloc(*daiktai, size * sizeof(Daiktas));
-            
-        }
-    }
-    *n = i;
 }
 int findBestForS(Daiktas *daiktai, int n, int S){
     int *dp = calloc(S + 1, sizeof(int));

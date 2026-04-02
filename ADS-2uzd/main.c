@@ -16,7 +16,7 @@ int main(){
     Daiktas *daiktai = NULL;
     char fileName[100];
 
-    printf("File name: ");
+    printf("File name (test1.txt, test2.txt, test3.txt test4.txt) : ");
     scanf("%99s", fileName);
 
     readFromFile(fileName, &daiktai, &n, &S);

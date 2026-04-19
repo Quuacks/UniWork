@@ -1,0 +1,42 @@
+QUERY1
+20
+Vardas Pavarde: Jessie Damon Kursas: 1 Vidurkis: 0.00 Kursai: 0 Mokamos Kalbos: English Spanish
+Vardas Pavarde: Robert Doe Kursas: 3 Vidurkis: 0.00 Kursai: 0 Mokamos Kalbos: English Russian
+Vardas Pavarde: Melissa Enderman Kursas: 1 Vidurkis: 0.00 Kursai: 0 Mokamos Kalbos: English Spanish
+...
+QUERY2
+881
+Vardas Pavarde: Alex Darry Kursas: 3 Vidurkis: 7.00 Kursai: 3 Computer networks: 6   Computer networks: 6   Computer networks: 6   Mokamos Kalbos: English
+Vardas Pavarde: Betty Note Kursas: 4 Vidurkis: 7.50 Kursai: 4 Operating systems: 9   Operating systems: 9   Operating systems: 9   Operating systems: 9   Mokamos Kalbos: English Russian
+Vardas Pavarde: Richard Norman Kursas: 2 Vidurkis: 5.33 Kursai: 3 Physics: 5   Physics: 5   Physics: 5   Mokamos Kalbos: English
+...
+QUERY3
+802
+Vardas Pavarde: Betty Note Kursas: 4 Vidurkis: 7.50 Kursai: 4 Physics: 7   Physics: 7   Physics: 7   Physics: 7   Mokamos Kalbos: English Russian
+Vardas Pavarde: Jessie Damon Kursas: 1 Vidurkis: 0.00 Kursai: 0 Mokamos Kalbos: English Spanish
+Vardas Pavarde: Richard Norman Kursas: 2 Vidurkis: 5.33 Kursai: 3 Physics: 5   Physics: 5   Physics: 5   Mokamos Kalbos: English
+...
+QUERY4
+506
+Vardas Pavarde: Alex Darry Kursas: 3 Vidurkis: 7.00 Kursai: 3 Computer networks: 6   Computer networks: 6   Computer networks: 6   Mokamos Kalbos: English
+Vardas Pavarde: Richard Norman Kursas: 2 Vidurkis: 5.33 Kursai: 3 Calculus: 6   Calculus: 6   Calculus: 6   Mokamos Kalbos: English
+Vardas Pavarde: Kim Sadman Kursas: 2 Vidurkis: 8.50 Kursai: 2 : 0   : 0   Mokamos Kalbos: English
+...
+QUERY5
+265
+Vardas Pavarde: Betty Note Kursas: 4 Vidurkis: 7.50 Kursai: 4 Physics: 7   Physics: 7   Physics: 7   Physics: 7   Mokamos Kalbos: English Russian
+Vardas Pavarde: Jessie Damon Kursas: 1 Vidurkis: 0.00 Kursai: 0 Mokamos Kalbos: English Spanish
+Vardas Pavarde: Richard Norman Kursas: 2 Vidurkis: 5.33 Kursai: 3 Physics: 5   Physics: 5   Physics: 5   Mokamos Kalbos: English
+...
+QUERY6
+881
+Vardas Pavarde: Alex Darry Kursas: 3 Vidurkis: 7.00 Kursai: 3 Computer networks: 6   Computer networks: 6   Computer networks: 6   Mokamos Kalbos: English
+Vardas Pavarde: Betty Note Kursas: 4 Vidurkis: 7.50 Kursai: 4 Operating systems: 9   Operating systems: 9   Operating systems: 9   Operating systems: 9   Mokamos Kalbos: English Russian
+Vardas Pavarde: Richard Norman Kursas: 2 Vidurkis: 5.33 Kursai: 3 Physics: 5   Physics: 5   Physics: 5   Mokamos Kalbos: English
+...
+QUERY7
+193
+Vardas Pavarde: Alex Darry Kursas: 3 Vidurkis: 7.00 Kursai: 3 Computer networks: 6   Computer networks: 6   Computer networks: 6   Mokamos Kalbos: English
+Vardas Pavarde: Betty Note Kursas: 4 Vidurkis: 7.50 Kursai: 4 Operating systems: 9   Operating systems: 9   Operating systems: 9   Operating systems: 9   Mokamos Kalbos: English Russian
+Vardas Pavarde: Luke Madsen Kursas: 3 Vidurkis: 7.00 Kursai: 1 : 0   Mokamos Kalbos: English Spanish
+...
